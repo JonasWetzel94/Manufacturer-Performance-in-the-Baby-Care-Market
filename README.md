@@ -77,7 +77,6 @@ Additional dataset facts: **107 manufacturers**, **159 brands**, **551 items** (
   =IFERROR(
     GETPIVOTDATA("Value",$B$3,"Manufacturer",$A10,"Year",2023),
   0)
-
 ---
 
 ## How I Built It (Tools & Techniques)
