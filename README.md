@@ -78,7 +78,6 @@ Additional dataset facts: **107 manufacturers**, **159 brands**, **551 items** (
     GETPIVOTDATA("Value",$B$3,"Manufacturer",$A10,"Year",2023),
   0)
 
-
 ## How I Built It (Tools & Techniques)
 - Excel: Power cleaning (filters, Fill Right/Down), Text-to-Columns, XLOOKUP, GETPIVOTDATA, IFERROR, Pivot Tables, Slicers, Conditional Formatting, Freeze Panes. 
 - Data rules: keep only ITEM granularity; drop brand/manufacturer subtotals; standardize columns; ensure numeric dtypes for all measures.
